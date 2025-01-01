@@ -1,0 +1,104 @@
+id,name,category,price,description,tags,rating,views,purchases
+1,Wireless Headphones,Electronics,99.99,Premium wireless headphones with noise cancellation,audio wireless bluetooth noise-cancellation music,4.5,1200,450
+2,Smart Watch,Electronics,199.99,Fitness tracking smartwatch with heart rate monitor,wearable fitness health tracking smart-device,4.3,1500,380
+3,Running Shoes,Sports,89.99,Lightweight running shoes with cushioned sole,sports running footwear athletic comfort,4.7,2000,850
+4,Coffee Maker,Home & Kitchen,79.99,Programmable coffee maker with timer,kitchen appliance coffee brewing morning,4.2,900,320
+5,Gaming Laptop,Electronics,1299.99,High-performance gaming laptop with RTX graphics,gaming computer laptop rtx performance,4.8,3000,250
+6,Yoga Mat,Sports,29.99,Non-slip yoga mat with carrying strap,yoga fitness exercise mat workout,4.4,800,420
+7,Smart LED Bulb,Home & Kitchen,19.99,WiFi-enabled color changing smart bulb,smart-home lighting led wifi automation,4.1,1100,580
+8,Backpack,Fashion,49.99,Water-resistant laptop backpack with USB port,bag travel laptop fashion accessories,4.6,1800,760
+9,Digital Camera,Electronics,599.99,Mirrorless digital camera with 4K video,camera photography video digital mirrorless,4.7,2200,180
+10,Air Purifier,Home & Kitchen,149.99,HEPA air purifier for large rooms,air-quality home health filter clean,4.5,950,340
+11,Protein Powder,Health & Nutrition,39.99,Whey protein powder for muscle recovery,fitness health protein supplement nutrition,4.3,1600,890
+12,Robot Vacuum,Home & Kitchen,299.99,Smart robot vacuum with mapping technology,cleaning smart-home robot automation vacuum,4.4,1700,290
+13,Mechanical Keyboard,Electronics,129.99,RGB mechanical gaming keyboard with Cherry MX switches,gaming keyboard mechanical rgb peripherals,4.6,2100,420
+14,Wireless Earbuds,Electronics,159.99,True wireless earbuds with active noise cancellation,audio wireless earbuds bluetooth portable,4.4,2500,680
+15,Yoga Blocks Set,Sports,24.99,High-density foam yoga blocks with strap,yoga fitness exercise props support,4.2,600,280
+16,Smart Thermostat,Home & Kitchen,179.99,WiFi-enabled smart thermostat with energy saving features,smart-home temperature automation energy-saving,4.7,1400,220
+17,Hiking Boots,Sports,149.99,Waterproof hiking boots with ankle support,hiking outdoor footwear waterproof adventure,4.8,1900,340
+18,Blender,Home & Kitchen,89.99,High-speed blender for smoothies and shakes,kitchen appliance blender smoothie cooking,4.3,1300,450
+19,Wireless Mouse,Electronics,49.99,Ergonomic wireless mouse with programmable buttons,computer mouse wireless ergonomic accessories,4.5,2000,890
+20,Resistance Bands,Sports,19.99,Set of 5 resistance bands with different strengths,fitness exercise resistance-bands workout,4.4,1200,760
+21,Smart Security Camera,Electronics,129.99,WiFi security camera with motion detection,security camera smart-home surveillance,4.6,1800,320
+22,Weighted Blanket,Home & Kitchen,69.99,15 lb weighted blanket for better sleep,sleep comfort bedding relaxation,4.5,950,280
+23,Bluetooth Speaker,Electronics,79.99,Portable waterproof bluetooth speaker,audio speaker bluetooth portable waterproof,4.3,2200,560
+24,Dumbbells Set,Sports,199.99,Adjustable dumbbells set 5-52.5 lbs,fitness weights exercise strength-training,4.8,1600,240
+25,Air Fryer,Home & Kitchen,119.99,Digital air fryer with multiple cooking presets,kitchen appliance cooking healthy air-fryer,4.7,2800,720
+26,Gaming Mouse,Electronics,89.99,High-DPI gaming mouse with programmable buttons,gaming mouse rgb peripherals,4.6,2400,480
+27,Yoga Towel,Sports,34.99,Non-slip hot yoga towel with corner pockets,yoga fitness towel grip sweat,4.2,700,320
+28,Smart Scale,Health & Nutrition,49.99,Bluetooth smart scale with body composition analysis,health fitness scale measurement smart-device,4.4,1500,420
+29,Standing Desk,Home & Kitchen,299.99,Electric height adjustable standing desk,furniture office ergonomic standing-desk,4.7,1200,180
+30,Wireless Charger,Electronics,29.99,Fast wireless charging pad for smartphones,charging wireless smartphone accessories,4.3,2100,920
+31,Kettlebell,Sports,44.99,Cast iron kettlebell with vinyl coating,fitness kettlebell strength-training workout,4.5,900,340
+32,Food Processor,Home & Kitchen,159.99,10-cup food processor with multiple attachments,kitchen appliance cooking food-prep,4.4,1100,260
+33,Gaming Headset,Electronics,149.99,Surround sound gaming headset with mic,gaming audio headset microphone,4.6,2600,480
+34,Foam Roller,Sports,29.99,High-density foam roller for muscle recovery,fitness recovery massage muscle-care,4.3,800,420
+35,Smart Doorbell,Electronics,199.99,Video doorbell with two-way audio,security smart-home doorbell camera,4.5,1600,280
+36,Rice Cooker,Home & Kitchen,69.99,Digital rice cooker with steamer basket,kitchen appliance cooking rice steamer,4.4,1400,520
+37,Fitness Tracker,Electronics,79.99,Slim fitness tracker with heart rate monitor,fitness wearable health tracking smart-device,4.2,2200,680
+38,Jump Rope,Sports,14.99,Adjustable speed jump rope with ball bearings,fitness cardio jump-rope workout,4.4,1000,580
+39,Smart Lock,Home & Kitchen,159.99,WiFi-enabled smart door lock with keypad,security smart-home lock automation,4.6,1300,220
+40,External SSD,Electronics,129.99,1TB portable SSD with USB-C connection,storage computer ssd portable fast,4.7,1900,420
+41,Resistance Tubes,Sports,24.99,Heavy-duty resistance tubes with handles,fitness exercise resistance workout,4.3,700,340
+42,Slow Cooker,Home & Kitchen,49.99,6-quart programmable slow cooker,kitchen appliance cooking slow-cooker,4.5,1200,480
+43,Webcam,Electronics,89.99,1080p webcam with built-in microphone,computer webcam video conferencing,4.4,2400,620
+44,Exercise Ball,Sports,29.99,Anti-burst exercise ball with pump,fitness exercise ball stability workout,4.2,900,380
+45,Smart Plug,Home & Kitchen,24.99,WiFi smart plug with energy monitoring,smart-home automation power control,4.3,1700,820
+46,Power Bank,Electronics,49.99,20000mAh portable power bank with fast charging,charging portable power-bank battery,4.6,2800,920
+47,Boxing Gloves,Sports,59.99,Training boxing gloves with wrist support,boxing sports training gloves protection,4.5,800,240
+48,Electric Kettle,Home & Kitchen,39.99,Electric kettle with temperature control,kitchen appliance kettle tea coffee,4.4,1500,580
+49,Smart Display,Electronics,129.99,Smart display with voice assistant,smart-home display assistant automation,4.7,1800,320
+50,Resistance Loop Bands,Sports,12.99,Set of 3 fabric resistance loop bands,fitness exercise resistance-bands workout,4.3,1100,720
+51,Waffle Maker,Home & Kitchen,34.99,Belgian waffle maker with adjustable browning,kitchen appliance breakfast cooking,4.2,900,380
+52,Wireless Keyboard,Electronics,69.99,Slim wireless keyboard with numeric keypad,computer keyboard wireless accessories,4.5,2000,560
+53,Ab Roller,Sports,19.99,Ab wheel roller with knee pad,fitness ab-workout core exercise,4.4,700,420
+54,Smart Light Strip,Home & Kitchen,29.99,WiFi LED light strip with music sync,smart-home lighting led decoration,4.3,1400,480
+55,Dash Cam,Electronics,119.99,4K dash cam with GPS and night vision,car camera security driving recording,4.6,1600,280
+56,Battle Ropes,Sports,79.99,30ft battle ropes with anchor kit,fitness exercise battle-ropes workout,4.7,600,140
+57,Toaster Oven,Home & Kitchen,89.99,Digital convection toaster oven,kitchen appliance cooking baking,4.5,1300,420
+58,Portable Monitor,Electronics,199.99,15.6" portable monitor with USB-C,computer monitor portable display,4.4,1900,340
+59,Pull-up Bar,Sports,34.99,Doorway pull-up bar with multiple grips,fitness strength-training pull-ups workout,4.3,800,320
+60,Food Scale,Home & Kitchen,19.99,Digital kitchen scale with tare function,kitchen scale measurement cooking,4.2,1200,580
+61,USB Hub,Electronics,39.99,7-port USB hub with power delivery,computer usb hub accessories connectivity,4.5,2200,760
+62,Massage Ball,Sports,14.99,Spiky massage ball for muscle relief,fitness recovery massage muscle-care,4.4,600,420
+63,Hand Mixer,Home & Kitchen,29.99,5-speed hand mixer with storage case,kitchen appliance mixer baking,4.3,1000,380
+64,Wireless Presenter,Electronics,24.99,Wireless presenter with laser pointer,presentation remote wireless business,4.5,1400,520
+65,Resistance Wheel,Sports,24.99,Ab resistance wheel with foot straps,fitness ab-workout core exercise,4.6,700,280
+66,Ice Maker,Home & Kitchen,149.99,Countertop ice maker with 3 cube sizes,kitchen appliance ice beverages,4.4,900,180
+67,Car Charger,Electronics,19.99,Dual USB car charger with quick charge,car charging usb accessories,4.3,2400,920
+68,Ankle Weights,Sports,29.99,Adjustable ankle weights pair 5 lbs each,fitness weights exercise leg-workout,4.5,800,340
+69,Electric Grill,Home & Kitchen,79.99,Indoor electric grill with temperature control,kitchen appliance grill cooking,4.6,1100,260
+70,Wireless Adapter,Electronics,29.99,USB WiFi adapter with dual band,computer wifi networking accessories,4.2,1600,580
+71,Balance Board,Sports,39.99,Wooden balance board for fitness training,fitness balance coordination training,4.4,700,320
+72,Can Opener,Home & Kitchen,24.99,Electric can opener with bottle opener,kitchen appliance tools gadgets,4.3,900,480
+73,Cable Organizer,Electronics,14.99,Cable management sleeve set with clips,organization cable-management accessories,4.5,2000,820
+74,Gym Bag,Sports,44.99,Sports gym bag with shoe compartment,fitness bag sports travel gear,4.7,1200,420
+75,Milk Frother,Home & Kitchen,19.99,Electric milk frother for coffee drinks,kitchen coffee milk-frother beverages,4.4,800,360
+76,Laptop Stand,Electronics,39.99,Adjustable laptop stand with cooling,computer laptop ergonomic accessories,4.6,1800,580
+77,Wrist Wraps,Sports,19.99,Weight lifting wrist wraps pair,fitness weightlifting support protection,4.3,600,280
+78,Spice Rack,Home & Kitchen,34.99,Rotating spice rack with 20 jars,kitchen organization spices storage,4.5,1000,420
+79,Cable Tester,Electronics,24.99,Network cable tester with LED display,computer network testing tools,4.2,1200,240
+80,Push-up Handles,Sports,24.99,Rotating push-up handles with foam grips,fitness push-ups exercise strength,4.4,700,380
+81,Wine Opener,Home & Kitchen,29.99,Electric wine opener with foil cutter,kitchen wine accessories tools,4.3,900,460
+82,Tablet Stand,Electronics,24.99,Adjustable tablet stand with cable management,tablet stand holder accessories,4.5,1600,640
+83,Speed Ladder,Sports,19.99,Agility speed ladder with carrying bag,fitness agility training speed,4.6,600,280
+84,Food Container Set,Home & Kitchen,39.99,Glass food storage containers with lids,kitchen storage food containers,4.4,1100,520
+85,Screen Cleaner,Electronics,14.99,Screen cleaning kit with microfiber cloth,cleaning electronics screens accessories,4.3,2200,880
+86,Weight Vest,Sports,69.99,Adjustable weighted vest 20 lbs,fitness weights exercise training,4.7,800,180
+87,Dish Rack,Home & Kitchen,29.99,2-tier dish drying rack with utensil holder,kitchen organization dishes storage,4.5,1000,420
+88,Phone Stand,Electronics,19.99,Adjustable phone stand for desk,phone stand holder accessories,4.4,1800,720
+89,Medicine Ball,Sports,34.99,10 lb rubber medicine ball,fitness exercise strength core,4.3,700,320
+90,Tea Kettle,Home & Kitchen,29.99,Stovetop tea kettle with whistling spout,kitchen tea kettle beverages,4.2,900,380
+91,Mouse Pad,Electronics,14.99,Large gaming mouse pad with stitched edges,computer mouse-pad gaming accessories,4.5,2400,920
+92,Gliding Discs,Sports,14.99,Core exercise sliding discs pair,fitness core exercise sliders,4.4,600,280
+93,Cutting Board,Home & Kitchen,24.99,Bamboo cutting board with juice groove,kitchen cutting-board food-prep,4.6,1200,580
+94,Keyboard Cover,Electronics,9.99,Silicone keyboard cover for protection,computer keyboard protection accessories,4.3,1600,720
+95,Hand Grip,Sports,12.99,Adjustable hand grip strengthener,fitness grip-strength hand exercise,4.5,800,420
+96,Measuring Cups,Home & Kitchen,19.99,Stainless steel measuring cups set,kitchen measurement cooking baking,4.4,1000,480
+97,Laptop Sleeve,Electronics,24.99,Neoprene laptop sleeve with pocket,computer laptop protection accessories,4.6,1800,680
+98,Skip Rope,Sports,9.99,Basic speed skip rope,fitness cardio jump-rope workout,4.2,700,340
+99,Utensil Holder,Home & Kitchen,19.99,Rotating utensil holder with dividers,kitchen organization utensils storage,4.3,900,420
+100,Card Reader,Electronics,14.99,USB card reader for multiple formats,computer card-reader accessories,4.4,1400,580
+101,Yoga Strap,Sports,9.99,Cotton yoga strap with D-ring,yoga fitness stretching flexibility,4.3,600,320
+102,Shelf Organizer,Home & Kitchen,24.99,Expandable shelf organizer for cabinet,kitchen organization storage shelving,4.5,800,380
+103,Webcam Cover,Electronics,7.99,Privacy webcam cover slider 3-pack,computer privacy security accessories,4.4,2000,820

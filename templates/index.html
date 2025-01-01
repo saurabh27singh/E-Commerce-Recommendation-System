@@ -1,0 +1,40 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Recommendations</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Products</h1>
+    <div id="products">
+        {% for product in products.values() %}
+        <div class="product-card" data-product-id="{{ product.id|e }}">
+            <h3>{{ product.name|e }}</h3>
+            <p>{{ product.description|e }}</p>
+            <p class="price">${{ product.price|e }}</p>
+            <p class="rating">
+                <span class="rating-stars">
+                    {% for i in range(product.rating|int) %}★{% endfor %}
+                    {% if product.rating % 1 != 0 %}½{% endif %}
+                    {% for i in range(5 - product.rating|round|int) %}☆{% endfor %}
+                </span>
+                <span>{{ product.rating|e }}/5</span>
+            </p>
+            <button onclick="viewProduct({{ product.id|tojson|safe }})">View Details</button>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="recommendations">
+        <h2>Recommended for You</h2>
+        <div id="recommendations"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
