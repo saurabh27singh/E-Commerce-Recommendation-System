@@ -130,3 +130,59 @@ button:hover {
         width: calc(100% - 30px);
     }
 }
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.add-to-cart, .purchase {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.add-to-cart {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+}
+
+.purchase {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.in-cart {
+    background-color: #FFA726;
+}
+
+.purchased {
+    background-color: #66BB6A;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.star {
+    cursor: pointer;
+    color: #ddd;
+    font-size: 24px;
+    transition: color 0.2s ease;
+}
+
+.star:hover, .star.active {
+    color: #ffd700;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

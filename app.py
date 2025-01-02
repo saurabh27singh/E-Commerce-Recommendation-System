@@ -77,14 +77,12 @@ class AdvancedRecommendationEngine:
         """Build enhanced user-item interaction matrix"""
         try:
             n_users = len(self.user_interactions)
-            n_items = len(self.products)
+            n_items = max(self.products.keys())  # Changed to max product ID
             
-            # Initialize sparse matrix in COO format for efficient construction
             rows = []
             cols = []
             data = []
             
-            # Weight different types of interactions
             view_weight = 1
             cart_weight = 2
             purchase_weight = 3
@@ -93,44 +91,45 @@ class AdvancedRecommendationEngine:
             for user_idx, (user_id, interactions) in enumerate(self.user_interactions.items()):
                 # Add viewed interactions
                 for item_id in interactions['viewed']:
-                    if item_id <= n_items:
+                    if item_id in self.products:  # Changed condition
                         rows.append(user_idx)
                         cols.append(item_id-1)
                         data.append(view_weight)
                 
                 # Add cart interactions
                 for item_id in interactions['cart']:
-                    if item_id <= n_items:
+                    if item_id in self.products:  # Changed condition
                         rows.append(user_idx)
                         cols.append(item_id-1)
                         data.append(cart_weight)
                 
                 # Add purchase interactions
                 for item_id in interactions['purchased']:
-                    if item_id <= n_items:
+                    if item_id in self.products:  # Changed condition
                         rows.append(user_idx)
                         cols.append(item_id-1)
                         data.append(purchase_weight)
                 
                 # Add rating interactions
-                for item_id, rating in interactions['ratings'].items():
-                    if item_id <= n_items:
+                for item_id_str, rating in interactions['ratings'].items():
+                    item_id = int(item_id_str)
+                    if item_id in self.products:  # Changed condition
                         rows.append(user_idx)
                         cols.append(item_id-1)
                         data.append(rating * rating_weight)
             
-            # Create CSR matrix directly
+            # Create matrix with proper dimensions
             self.user_item_matrix = csr_matrix(
                 (data, (rows, cols)), 
                 shape=(n_users, n_items)
             )
             
-            logging.debug(f"Built collaborative matrix in CSR format: {self.user_item_matrix.shape}")
+            logging.debug(f"Built collaborative matrix: shape={self.user_item_matrix.shape}, nnz={len(data)}")
             
         except Exception as e:
             logging.error(f"Error building collaborative matrix: {e}")
             raise
-
+    
     def _build_implicit_model(self):
         """Initialize and train implicit feedback model"""
         try:
@@ -381,6 +380,7 @@ def load_products():
             "purchases": row['purchases']
         }
     return products_dict
+
 products = load_products()  # Assuming this function exists
 
 user_interactions = initialize_user_interactions()
