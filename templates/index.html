@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-commerce Recommendations</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
     <h1>Products</h1>
     <div id="products">
-        {% for product in products.values() %}
-        <div class="product-card" data-product-id="{{ product.id|e }}">
-            <h3>{{ product.name|e }}</h3>
-            <p>{{ product.description|e }}</p>
-            <p class="price">${{ product.price|e }}</p>
+      {% for product in products.values() %}
+      <div class="product-card" data-product-id="{{ product.id|e }}">
+        <h3>{{ product.name|e }}</h3>
+        <p>{{ product.description|e }}</p>
+        <p class="price">${{ product.price|e }}</p>
 
-            <div class="star-rating" title="Rate this product">
-                {% for i in range(1, 6) %}
-                <span class="star" data-rating="{{ i }}">★</span>
-                {% endfor %}
-            </div>
-
-            <div class="action-buttons">
-                <button class="add-to-cart" onclick="addToCart({{ product.id|tojson|safe }})">
-                    Add to Cart
-                </button>
-                <button class="purchase" onclick="purchase({{ product.id|tojson|safe }})">
-                    Purchase
-                </button>
-            </div>
+        <div class="star-rating" title="Rate this product">
+          {% for i in range(1, 6) %}
+          <span class="star" data-rating="{{ i }}">★</span>
+          {% endfor %}
         </div>
-        {% endfor %}
+
+        <div class="action-buttons">
+          <button
+            class="add-to-cart"
+            onclick="addToCart({{ product.id|tojson|safe }})"
+          >
+            Add to Cart
+          </button>
+          <button
+            class="purchase"
+            onclick="purchase({{ product.id|tojson|safe }})"
+          >
+            Purchase
+          </button>
+        </div>
+      </div>
+      {% endfor %}
     </div>
 
     <div class="recommendations">
-        <h2>Recommended for You</h2>
-        <div id="recommendations"></div>
+      <h2>Recommended for You</h2>
+      <div id="recommendations"></div>
     </div>
     <script>
-        $(document).ready(function () {
-            initStarRating();
-        });
+      $(document).ready(function () {
+        initStarRating();
+      });
     </script>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
-
-</body>
-
+  </body>
 </html>
