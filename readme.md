@@ -51,3 +51,9 @@ recommendation-system/
 │   └── user_interactions.json  # User interaction data
 └── [requirements.txt]  # Python dependencies
 ```
+
+## Run the app
+
+```bash
+python app.py
+```
