@@ -38,6 +38,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
+```bash
 recommendation-system/
 ├── [app.py]          # Main Flask application
 ├── static/
@@ -49,3 +50,4 @@ recommendation-system/
 │   ├── products.csv      # Product catalog
 │   └── user_interactions.json  # User interaction data
 └── [requirements.txt]  # Python dependencies
+```
